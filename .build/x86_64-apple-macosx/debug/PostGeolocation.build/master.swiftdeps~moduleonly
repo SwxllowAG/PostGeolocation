@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "6a052f873e8dc5b71c10bceec1866330"
+build_time: [1616450301, 534962000]
+inputs:
+  "/Users/galymanuarbek/Desktop/PostGeolocation/Sources/PostGeolocation/PostGeolocation.swift": [1616449587, 195437277]
+  "/Users/galymanuarbek/Desktop/PostGeolocation/Sources/PostGeolocation/PostGeolocationManager.swift": [1616450180, 678005557]
+  "/Users/galymanuarbek/Desktop/PostGeolocation/Sources/PostGeolocation/TestUrlSession.swift": [1616449765, 101867984]
+  "/Users/galymanuarbek/Desktop/PostGeolocation/Sources/PostGeolocation/URLSessionProtocol.swift": [1616448167, 760597505]

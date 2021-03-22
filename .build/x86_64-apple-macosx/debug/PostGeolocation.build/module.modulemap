@@ -1,0 +1,4 @@
+module PostGeolocation {
+    header "/Users/galymanuarbek/Desktop/PostGeolocation/.build/x86_64-apple-macosx/debug/PostGeolocation.build/PostGeolocation-Swift.h"
+    requires objc
+}

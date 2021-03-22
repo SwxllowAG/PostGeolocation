@@ -1,0 +1,563 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PostGeolocationManagerDelegate"
+- "PostGeolocationManager"
+provides-nominal:
+- "15PostGeolocation0aB15ManagerDelegateP"
+- "15PostGeolocation0aB7ManagerC"
+provides-member:
+- ["15PostGeolocation0aB15ManagerDelegateP", ""]
+- ["15PostGeolocation0aB7ManagerC", ""]
+provides-dynamic-lookup:
+- "api"
+- "checkLocationServicesEnabled"
+- "delegate"
+- "ext"
+- "handleTimer"
+- "locationManager"
+- "postCurrentLocation"
+- "requestLocationAlways"
+- "requestLocationWhenInUse"
+- "setApi"
+- "setExt"
+- "startUpdatingLocation"
+- "stopUpdatingLocation"
+- "timer"
+depends-top-level:
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CLLocation"
+- "CLLocationManager"
+- "CLLocationManagerDelegate"
+- "Data"
+- "Double"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "NSObject"
+- !private "PostGeolocation"
+- "PostGeolocationError"
+- "PostGeolocationManager"
+- "PostGeolocationManagerDelegate"
+- "String"
+- "StringLiteralType"
+- "Timer"
+- !private "checkLocationServicesEnabled"
+- !private "ext"
+- !private "handleTimer"
+- !private "kCLLocationAccuracyBest"
+- !private "locationManager"
+- !private "postCurrentLocation"
+- !private "timer"
+depends-member:
+- !private ["Sa", "last"]
+- !private ["SK", ""]
+- !private ["SK", "last"]
+- ["So21CLAuthorizationStatusV", "authorizedAlways"]
+- ["So21CLAuthorizationStatusV", "authorizedWhenInUse"]
+- ["So21CLAuthorizationStatusV", "denied"]
+- ["So21CLAuthorizationStatusV", "notDetermined"]
+- ["So21CLAuthorizationStatusV", "restricted"]
+- !private ["So10CLLocationC", "coordinate"]
+- !private ["So22CLLocationCoordinate2DV", "latitude"]
+- !private ["So22CLLocationCoordinate2DV", "longitude"]
+- !private ["So17CLLocationManagerC", "authorizationStatus"]
+- !private ["So17CLLocationManagerC", "desiredAccuracy"]
+- !private ["So17CLLocationManagerC", "init"]
+- !private ["So17CLLocationManagerC", "locationServicesEnabled"]
+- !private ["So17CLLocationManagerC", "requestAlwaysAuthorization"]
+- !private ["So17CLLocationManagerC", "requestLocation"]
+- !private ["So17CLLocationManagerC", "requestWhenInUseAuthorization"]
+- !private ["So17CLLocationManagerC", "stopUpdatingLocation"]
+- !private ["So25CLLocationManagerDelegateP", "CLLocationManager"]
+- !private ["So25CLLocationManagerDelegateP", "PostGeolocation"]
+- !private ["So25CLLocationManagerDelegateP", "Timer"]
+- ["So25CLLocationManagerDelegateP", ""]
+- ["So25CLLocationManagerDelegateP", "api"]
+- ["So25CLLocationManagerDelegateP", "checkLocationServicesEnabled"]
+- ["So25CLLocationManagerDelegateP", "deinit"]
+- ["So25CLLocationManagerDelegateP", "delegate"]
+- ["So25CLLocationManagerDelegateP", "ext"]
+- ["So25CLLocationManagerDelegateP", "handleTimer"]
+- ["So25CLLocationManagerDelegateP", "init"]
+- !private ["So25CLLocationManagerDelegateP", "kCLLocationAccuracyBest"]
+- ["So25CLLocationManagerDelegateP", "locationManager"]
+- ["So25CLLocationManagerDelegateP", "locationManagerDidChangeAuthorization"]
+- ["So25CLLocationManagerDelegateP", "locationManagerDidPauseLocationUpdates"]
+- ["So25CLLocationManagerDelegateP", "locationManagerDidResumeLocationUpdates"]
+- ["So25CLLocationManagerDelegateP", "locationManagerShouldDisplayHeadingCalibration"]
+- ["So25CLLocationManagerDelegateP", "postCurrentLocation"]
+- ["So25CLLocationManagerDelegateP", "requestLocationAlways"]
+- ["So25CLLocationManagerDelegateP", "requestLocationWhenInUse"]
+- ["So25CLLocationManagerDelegateP", "setApi"]
+- ["So25CLLocationManagerDelegateP", "setExt"]
+- ["So25CLLocationManagerDelegateP", "startUpdatingLocation"]
+- ["So25CLLocationManagerDelegateP", "stopUpdatingLocation"]
+- ["So25CLLocationManagerDelegateP", "timer"]
+- !private ["s7CVarArgP", "CLLocationManager"]
+- !private ["s7CVarArgP", "PostGeolocation"]
+- !private ["s7CVarArgP", "Timer"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "api"]
+- !private ["s7CVarArgP", "authorizationStatus"]
+- !private ["s7CVarArgP", "checkLocationServicesEnabled"]
+- !private ["s7CVarArgP", "coordinate"]
+- !private ["s7CVarArgP", "delegate"]
+- !private ["s7CVarArgP", "desiredAccuracy"]
+- !private ["s7CVarArgP", "ext"]
+- !private ["s7CVarArgP", "handleTimer"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "invalidate"]
+- !private ["s7CVarArgP", "kCLLocationAccuracyBest"]
+- !private ["s7CVarArgP", "last"]
+- ["s7CVarArgP", "locationManager"]
+- ["s7CVarArgP", "locationManagerDidChangeAuthorization"]
+- ["s7CVarArgP", "locationManagerDidPauseLocationUpdates"]
+- ["s7CVarArgP", "locationManagerDidResumeLocationUpdates"]
+- ["s7CVarArgP", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["s7CVarArgP", "locationServicesEnabled"]
+- !private ["s7CVarArgP", "postCurrentLocation"]
+- !private ["s7CVarArgP", "requestAlwaysAuthorization"]
+- !private ["s7CVarArgP", "requestLocation"]
+- !private ["s7CVarArgP", "requestLocationAlways"]
+- !private ["s7CVarArgP", "requestLocationWhenInUse"]
+- !private ["s7CVarArgP", "requestWhenInUseAuthorization"]
+- !private ["s7CVarArgP", "setApi"]
+- !private ["s7CVarArgP", "setExt"]
+- !private ["s7CVarArgP", "startUpdatingLocation"]
+- !private ["s7CVarArgP", "stopUpdatingLocation"]
+- !private ["s7CVarArgP", "timer"]
+- !private ["Sl", ""]
+- !private ["Sl", "last"]
+- !private ["10Foundation15ContiguousBytesP", "last"]
+- !private ["s28CustomDebugStringConvertibleP", "CLLocationManager"]
+- !private ["s28CustomDebugStringConvertibleP", "PostGeolocation"]
+- !private ["s28CustomDebugStringConvertibleP", "Timer"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "api"]
+- !private ["s28CustomDebugStringConvertibleP", "authorizationStatus"]
+- !private ["s28CustomDebugStringConvertibleP", "checkLocationServicesEnabled"]
+- !private ["s28CustomDebugStringConvertibleP", "coordinate"]
+- !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- !private ["s28CustomDebugStringConvertibleP", "desiredAccuracy"]
+- !private ["s28CustomDebugStringConvertibleP", "ext"]
+- !private ["s28CustomDebugStringConvertibleP", "handleTimer"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "invalidate"]
+- !private ["s28CustomDebugStringConvertibleP", "kCLLocationAccuracyBest"]
+- !private ["s28CustomDebugStringConvertibleP", "last"]
+- ["s28CustomDebugStringConvertibleP", "locationManager"]
+- ["s28CustomDebugStringConvertibleP", "locationManagerDidChangeAuthorization"]
+- ["s28CustomDebugStringConvertibleP", "locationManagerDidPauseLocationUpdates"]
+- ["s28CustomDebugStringConvertibleP", "locationManagerDidResumeLocationUpdates"]
+- ["s28CustomDebugStringConvertibleP", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["s28CustomDebugStringConvertibleP", "locationServicesEnabled"]
+- !private ["s28CustomDebugStringConvertibleP", "postCurrentLocation"]
+- !private ["s28CustomDebugStringConvertibleP", "requestAlwaysAuthorization"]
+- !private ["s28CustomDebugStringConvertibleP", "requestLocation"]
+- !private ["s28CustomDebugStringConvertibleP", "requestLocationAlways"]
+- !private ["s28CustomDebugStringConvertibleP", "requestLocationWhenInUse"]
+- !private ["s28CustomDebugStringConvertibleP", "requestWhenInUseAuthorization"]
+- !private ["s28CustomDebugStringConvertibleP", "setApi"]
+- !private ["s28CustomDebugStringConvertibleP", "setExt"]
+- !private ["s28CustomDebugStringConvertibleP", "startUpdatingLocation"]
+- !private ["s28CustomDebugStringConvertibleP", "stopUpdatingLocation"]
+- !private ["s28CustomDebugStringConvertibleP", "timer"]
+- !private ["s17CustomReflectableP", "last"]
+- !private ["s23CustomStringConvertibleP", "CLLocationManager"]
+- !private ["s23CustomStringConvertibleP", "PostGeolocation"]
+- !private ["s23CustomStringConvertibleP", "Timer"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "api"]
+- !private ["s23CustomStringConvertibleP", "authorizationStatus"]
+- !private ["s23CustomStringConvertibleP", "checkLocationServicesEnabled"]
+- !private ["s23CustomStringConvertibleP", "coordinate"]
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- !private ["s23CustomStringConvertibleP", "desiredAccuracy"]
+- !private ["s23CustomStringConvertibleP", "ext"]
+- !private ["s23CustomStringConvertibleP", "handleTimer"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "invalidate"]
+- !private ["s23CustomStringConvertibleP", "kCLLocationAccuracyBest"]
+- !private ["s23CustomStringConvertibleP", "last"]
+- ["s23CustomStringConvertibleP", "locationManager"]
+- ["s23CustomStringConvertibleP", "locationManagerDidChangeAuthorization"]
+- ["s23CustomStringConvertibleP", "locationManagerDidPauseLocationUpdates"]
+- ["s23CustomStringConvertibleP", "locationManagerDidResumeLocationUpdates"]
+- ["s23CustomStringConvertibleP", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["s23CustomStringConvertibleP", "locationServicesEnabled"]
+- !private ["s23CustomStringConvertibleP", "postCurrentLocation"]
+- !private ["s23CustomStringConvertibleP", "requestAlwaysAuthorization"]
+- !private ["s23CustomStringConvertibleP", "requestLocation"]
+- !private ["s23CustomStringConvertibleP", "requestLocationAlways"]
+- !private ["s23CustomStringConvertibleP", "requestLocationWhenInUse"]
+- !private ["s23CustomStringConvertibleP", "requestWhenInUseAuthorization"]
+- !private ["s23CustomStringConvertibleP", "setApi"]
+- !private ["s23CustomStringConvertibleP", "setExt"]
+- !private ["s23CustomStringConvertibleP", "startUpdatingLocation"]
+- !private ["s23CustomStringConvertibleP", "stopUpdatingLocation"]
+- !private ["s23CustomStringConvertibleP", "timer"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "last"]
+- !private ["Se", "last"]
+- !private ["SE", "last"]
+- !private ["SQ", "CLLocationManager"]
+- !private ["SQ", "PostGeolocation"]
+- !private ["SQ", "Timer"]
+- ["SQ", ""]
+- !private ["SQ", "api"]
+- !private ["SQ", "authorizationStatus"]
+- ["SQ", "authorizedAlways"]
+- ["SQ", "authorizedWhenInUse"]
+- !private ["SQ", "checkLocationServicesEnabled"]
+- !private ["SQ", "coordinate"]
+- !private ["SQ", "delegate"]
+- ["SQ", "denied"]
+- !private ["SQ", "desiredAccuracy"]
+- !private ["SQ", "ext"]
+- !private ["SQ", "handleTimer"]
+- !private ["SQ", "init"]
+- !private ["SQ", "invalidate"]
+- !private ["SQ", "kCLLocationAccuracyBest"]
+- !private ["SQ", "last"]
+- ["SQ", "locationManager"]
+- ["SQ", "locationManagerDidChangeAuthorization"]
+- ["SQ", "locationManagerDidPauseLocationUpdates"]
+- ["SQ", "locationManagerDidResumeLocationUpdates"]
+- ["SQ", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["SQ", "locationServicesEnabled"]
+- ["SQ", "notDetermined"]
+- !private ["SQ", "postCurrentLocation"]
+- !private ["SQ", "requestAlwaysAuthorization"]
+- !private ["SQ", "requestLocation"]
+- !private ["SQ", "requestLocationAlways"]
+- !private ["SQ", "requestLocationWhenInUse"]
+- !private ["SQ", "requestWhenInUseAuthorization"]
+- ["SQ", "restricted"]
+- !private ["SQ", "setApi"]
+- !private ["SQ", "setExt"]
+- !private ["SQ", "startUpdatingLocation"]
+- !private ["SQ", "stopUpdatingLocation"]
+- !private ["SQ", "timer"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "last"]
+- !private ["SH", "CLLocationManager"]
+- !private ["SH", "PostGeolocation"]
+- !private ["SH", "Timer"]
+- ["SH", ""]
+- !private ["SH", "api"]
+- !private ["SH", "authorizationStatus"]
+- ["SH", "authorizedAlways"]
+- ["SH", "authorizedWhenInUse"]
+- !private ["SH", "checkLocationServicesEnabled"]
+- !private ["SH", "coordinate"]
+- !private ["SH", "delegate"]
+- ["SH", "denied"]
+- !private ["SH", "desiredAccuracy"]
+- !private ["SH", "ext"]
+- !private ["SH", "handleTimer"]
+- !private ["SH", "init"]
+- !private ["SH", "invalidate"]
+- !private ["SH", "kCLLocationAccuracyBest"]
+- !private ["SH", "last"]
+- ["SH", "locationManager"]
+- ["SH", "locationManagerDidChangeAuthorization"]
+- ["SH", "locationManagerDidPauseLocationUpdates"]
+- ["SH", "locationManagerDidResumeLocationUpdates"]
+- ["SH", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["SH", "locationServicesEnabled"]
+- ["SH", "notDetermined"]
+- !private ["SH", "postCurrentLocation"]
+- !private ["SH", "requestAlwaysAuthorization"]
+- !private ["SH", "requestLocation"]
+- !private ["SH", "requestLocationAlways"]
+- !private ["SH", "requestLocationWhenInUse"]
+- !private ["SH", "requestWhenInUseAuthorization"]
+- ["SH", "restricted"]
+- !private ["SH", "setApi"]
+- !private ["SH", "setExt"]
+- !private ["SH", "startUpdatingLocation"]
+- !private ["SH", "stopUpdatingLocation"]
+- !private ["SH", "timer"]
+- !private ["SM", ""]
+- !private ["SM", "last"]
+- !private ["10Foundation19MutableDataProtocolP", "last"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "coordinate"]
+- !private ["So9NSCopyingP", "coordinate"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "CLLocation"]
+- ["So8NSObjectC", "CLLocationManager"]
+- ["So8NSObjectC", "Double"]
+- !private ["So8NSObjectC", "PostGeolocation"]
+- ["So8NSObjectC", "PostGeolocationManagerDelegate"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "Timer"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "api"]
+- !private ["So8NSObjectC", "authorizationStatus"]
+- ["So8NSObjectC", "checkLocationServicesEnabled"]
+- !private ["So8NSObjectC", "coordinate"]
+- ["So8NSObjectC", "delegate"]
+- !private ["So8NSObjectC", "desiredAccuracy"]
+- ["So8NSObjectC", "ext"]
+- ["So8NSObjectC", "handleTimer"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "invalidate"]
+- !private ["So8NSObjectC", "kCLLocationAccuracyBest"]
+- ["So8NSObjectC", "locationManager"]
+- ["So8NSObjectC", "locationManagerDidChangeAuthorization"]
+- ["So8NSObjectC", "locationManagerDidPauseLocationUpdates"]
+- ["So8NSObjectC", "locationManagerDidResumeLocationUpdates"]
+- ["So8NSObjectC", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["So8NSObjectC", "locationServicesEnabled"]
+- ["So8NSObjectC", "postCurrentLocation"]
+- !private ["So8NSObjectC", "requestAlwaysAuthorization"]
+- !private ["So8NSObjectC", "requestLocation"]
+- ["So8NSObjectC", "requestLocationAlways"]
+- ["So8NSObjectC", "requestLocationWhenInUse"]
+- !private ["So8NSObjectC", "requestWhenInUseAuthorization"]
+- ["So8NSObjectC", "setApi"]
+- ["So8NSObjectC", "setExt"]
+- ["So8NSObjectC", "startUpdatingLocation"]
+- ["So8NSObjectC", "stopUpdatingLocation"]
+- ["So8NSObjectC", "timer"]
+- !private ["So8NSObjectC", "timerWithTimeInterval"]
+- ["So8NSObjectP", "Bool"]
+- ["So8NSObjectP", "CLLocation"]
+- ["So8NSObjectP", "CLLocationManager"]
+- ["So8NSObjectP", "Double"]
+- !private ["So8NSObjectP", "PostGeolocation"]
+- ["So8NSObjectP", "PostGeolocationManagerDelegate"]
+- ["So8NSObjectP", "String"]
+- ["So8NSObjectP", "Timer"]
+- ["So8NSObjectP", ""]
+- ["So8NSObjectP", "api"]
+- !private ["So8NSObjectP", "authorizationStatus"]
+- ["So8NSObjectP", "checkLocationServicesEnabled"]
+- !private ["So8NSObjectP", "coordinate"]
+- ["So8NSObjectP", "deinit"]
+- ["So8NSObjectP", "delegate"]
+- !private ["So8NSObjectP", "desiredAccuracy"]
+- ["So8NSObjectP", "ext"]
+- ["So8NSObjectP", "handleTimer"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "invalidate"]
+- !private ["So8NSObjectP", "kCLLocationAccuracyBest"]
+- ["So8NSObjectP", "locationManager"]
+- ["So8NSObjectP", "locationManagerDidChangeAuthorization"]
+- ["So8NSObjectP", "locationManagerDidPauseLocationUpdates"]
+- ["So8NSObjectP", "locationManagerDidResumeLocationUpdates"]
+- ["So8NSObjectP", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["So8NSObjectP", "locationServicesEnabled"]
+- ["So8NSObjectP", "postCurrentLocation"]
+- !private ["So8NSObjectP", "requestAlwaysAuthorization"]
+- !private ["So8NSObjectP", "requestLocation"]
+- ["So8NSObjectP", "requestLocationAlways"]
+- ["So8NSObjectP", "requestLocationWhenInUse"]
+- !private ["So8NSObjectP", "requestWhenInUseAuthorization"]
+- ["So8NSObjectP", "setApi"]
+- ["So8NSObjectP", "setExt"]
+- ["So8NSObjectP", "startUpdatingLocation"]
+- ["So8NSObjectP", "stopUpdatingLocation"]
+- ["So8NSObjectP", "timer"]
+- !private ["So8NSObjectP", "timerWithTimeInterval"]
+- !private ["So14NSSecureCodingP", "coordinate"]
+- !private ["15PostGeolocationAAC", "log"]
+- !private ["15PostGeolocationAAC", "shared"]
+- ["15PostGeolocation0aB7ManagerC", "Bool"]
+- ["15PostGeolocation0aB7ManagerC", "CLLocation"]
+- ["15PostGeolocation0aB7ManagerC", "CLLocationManager"]
+- ["15PostGeolocation0aB7ManagerC", "Double"]
+- !private ["15PostGeolocation0aB7ManagerC", "PostGeolocation"]
+- ["15PostGeolocation0aB7ManagerC", "PostGeolocationManagerDelegate"]
+- ["15PostGeolocation0aB7ManagerC", "String"]
+- ["15PostGeolocation0aB7ManagerC", "Timer"]
+- ["15PostGeolocation0aB7ManagerC", ""]
+- ["15PostGeolocation0aB7ManagerC", "api"]
+- ["15PostGeolocation0aB7ManagerC", "checkLocationServicesEnabled"]
+- ["15PostGeolocation0aB7ManagerC", "deinit"]
+- ["15PostGeolocation0aB7ManagerC", "delegate"]
+- ["15PostGeolocation0aB7ManagerC", "ext"]
+- !private ["15PostGeolocation0aB7ManagerC", "handleTimer"]
+- ["15PostGeolocation0aB7ManagerC", "init"]
+- !private ["15PostGeolocation0aB7ManagerC", "kCLLocationAccuracyBest"]
+- ["15PostGeolocation0aB7ManagerC", "locationManager"]
+- ["15PostGeolocation0aB7ManagerC", "locationManagerDidChangeAuthorization"]
+- ["15PostGeolocation0aB7ManagerC", "locationManagerDidPauseLocationUpdates"]
+- ["15PostGeolocation0aB7ManagerC", "locationManagerDidResumeLocationUpdates"]
+- ["15PostGeolocation0aB7ManagerC", "locationManagerShouldDisplayHeadingCalibration"]
+- ["15PostGeolocation0aB7ManagerC", "postCurrentLocation"]
+- ["15PostGeolocation0aB7ManagerC", "requestLocationAlways"]
+- ["15PostGeolocation0aB7ManagerC", "requestLocationWhenInUse"]
+- ["15PostGeolocation0aB7ManagerC", "setApi"]
+- ["15PostGeolocation0aB7ManagerC", "setExt"]
+- ["15PostGeolocation0aB7ManagerC", "startUpdatingLocation"]
+- ["15PostGeolocation0aB7ManagerC", "stopUpdatingLocation"]
+- !private ["15PostGeolocation0aB7ManagerC", "timer"]
+- ["15PostGeolocation0aB15ManagerDelegateP", "Data"]
+- ["15PostGeolocation0aB15ManagerDelegateP", "Double"]
+- ["15PostGeolocation0aB15ManagerDelegateP", "PostGeolocationError"]
+- ["15PostGeolocation0aB15ManagerDelegateP", "didFailToPostGeolocation"]
+- ["15PostGeolocation0aB15ManagerDelegateP", "didPostGeolocation"]
+- !private ["Sk", ""]
+- !private ["Sk", "last"]
+- !private ["Sm", ""]
+- !private ["Sm", "last"]
+- ["SY", "authorizedAlways"]
+- ["SY", "authorizedWhenInUse"]
+- ["SY", "denied"]
+- ["SY", "notDetermined"]
+- ["SY", "restricted"]
+- !private ["ST", ""]
+- !private ["ST", "last"]
+- !private ["So7NSTimerC", "init"]
+- !private ["So7NSTimerC", "invalidate"]
+- !private ["s14_ArrayProtocolP", "last"]
+- !private ["s24_DestructorSafeContainerP", "last"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "last"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "last"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CLLocationManager"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "PostGeolocation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Timer"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "api"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "authorizationStatus"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "checkLocationServicesEnabled"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "coordinate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "desiredAccuracy"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ext"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "handleTimer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "invalidate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "kCLLocationAccuracyBest"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "locationManager"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "locationManagerDidChangeAuthorization"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "locationManagerDidPauseLocationUpdates"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "locationManagerDidResumeLocationUpdates"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "locationServicesEnabled"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "postCurrentLocation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "requestAlwaysAuthorization"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "requestLocation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "requestLocationAlways"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "requestLocationWhenInUse"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "requestWhenInUseAuthorization"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setApi"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setExt"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "startUpdatingLocation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "stopUpdatingLocation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "timer"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "CLLocationManager"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "PostGeolocation"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Timer"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "api"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "authorizationStatus"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "checkLocationServicesEnabled"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "coordinate"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "delegate"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "desiredAccuracy"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ext"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "handleTimer"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "invalidate"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "kCLLocationAccuracyBest"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "locationManager"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "locationManagerDidChangeAuthorization"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "locationManagerDidPauseLocationUpdates"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "locationManagerDidResumeLocationUpdates"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "locationServicesEnabled"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "postCurrentLocation"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "requestAlwaysAuthorization"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "requestLocation"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "requestLocationAlways"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "requestLocationWhenInUse"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "requestWhenInUseAuthorization"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setApi"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setExt"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "startUpdatingLocation"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "stopUpdatingLocation"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "timer"]
+- !private ["s21_ObjectiveCBridgeableP", "last"]
+- !private ["s21_ObjectiveCBridgeableP", "latitude"]
+- !private ["s21_ObjectiveCBridgeableP", "longitude"]
+depends-nominal:
+- !private "Sa"
+- !private "SK"
+- "So21CLAuthorizationStatusV"
+- !private "So10CLLocationC"
+- !private "So22CLLocationCoordinate2DV"
+- !private "So17CLLocationManagerC"
+- "So25CLLocationManagerDelegateP"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- "SH"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "15PostGeolocationAAC"
+- "15PostGeolocation0aB7ManagerC"
+- "15PostGeolocation0aB15ManagerDelegateP"
+- !private "Sk"
+- !private "Sm"
+- "SY"
+- !private "ST"
+- !private "So7NSTimerC"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Network.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/galymanuarbek/Desktop/PostGeolocation/.build/x86_64-apple-macosx/debug/PostGeolocation.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Network.framework/Headers/Network.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "2d1a03df4e825059ff9427c9146e752a"

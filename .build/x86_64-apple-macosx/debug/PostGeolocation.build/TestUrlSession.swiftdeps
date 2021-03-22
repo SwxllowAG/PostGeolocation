@@ -1,0 +1,197 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TestURLSessionDataTask"
+- "TestURLSession"
+provides-nominal:
+- "15PostGeolocation22TestURLSessionDataTaskC"
+- "15PostGeolocation14TestURLSessionC"
+provides-member:
+- ["15PostGeolocation22TestURLSessionDataTaskC", ""]
+- ["15PostGeolocation14TestURLSessionC", ""]
+provides-dynamic-lookup:
+- "isNilData"
+- "jsonData"
+- "lastURL"
+- "nextDataTask"
+- "pDataTask"
+- "resume"
+- "resumeWasCalled"
+- "success"
+- "successHttpURLResponse"
+- "wrongHttpURLResponse"
+depends-top-level:
+- "AssignmentPrecedence"
+- "BooleanLiteralType"
+- "Data"
+- !private "Dictionary"
+- "Error"
+- !private "FloatLiteralType"
+- !private "HTTPURLResponse"
+- "Int"
+- !private "IntegerLiteralType"
+- "JSONEncoder"
+- !private "NSError"
+- "StringLiteralType"
+- "TernaryPrecedence"
+- "TestURLSession"
+- "TestURLSessionDataTask"
+- "URL"
+- "URLRequest"
+- "URLResponse"
+- "URLSessionDataTaskProtocol"
+- "URLSessionProtocol"
+- "Void"
+- !private "isNilData"
+- !private "jsonData"
+- !private "lastURL"
+- !private "nextDataTask"
+- !private "resumeWasCalled"
+- !private "success"
+- !private "successHttpURLResponse"
+- !private "wrongHttpURLResponse"
+depends-member:
+- !private ["s7CVarArgP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "url"]
+- !private ["s17CustomReflectableP", "url"]
+- !private ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "url"]
+- !private ["SQ", ""]
+- !private ["SQ", "init"]
+- !private ["SQ", "url"]
+- !private ["s5ErrorP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Key"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Value"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["So17NSHTTPURLResponseC", "init"]
+- !private ["SH", ""]
+- !private ["SH", "init"]
+- !private ["SH", "url"]
+- ["10Foundation11JSONEncoderC", "encode"]
+- ["10Foundation11JSONEncoderC", "init"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "init"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So7NSErrorC", "init"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "errorWithDomain"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectP", "errorWithDomain"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "url"]
+- ["15PostGeolocation14TestURLSessionC", "Data"]
+- ["15PostGeolocation14TestURLSessionC", "Error"]
+- !private ["15PostGeolocation14TestURLSessionC", "HTTPURLResponse"]
+- ["15PostGeolocation14TestURLSessionC", "Int"]
+- ["15PostGeolocation14TestURLSessionC", "JSONEncoder"]
+- !private ["15PostGeolocation14TestURLSessionC", "NSError"]
+- ["15PostGeolocation14TestURLSessionC", "TestURLSessionDataTask"]
+- ["15PostGeolocation14TestURLSessionC", "URL"]
+- ["15PostGeolocation14TestURLSessionC", "URLRequest"]
+- ["15PostGeolocation14TestURLSessionC", "URLResponse"]
+- ["15PostGeolocation14TestURLSessionC", "URLSessionDataTaskProtocol"]
+- ["15PostGeolocation14TestURLSessionC", "Void"]
+- ["15PostGeolocation14TestURLSessionC", "deinit"]
+- ["15PostGeolocation14TestURLSessionC", "init"]
+- ["15PostGeolocation14TestURLSessionC", "isNilData"]
+- ["15PostGeolocation14TestURLSessionC", "jsonData"]
+- ["15PostGeolocation14TestURLSessionC", "lastURL"]
+- ["15PostGeolocation14TestURLSessionC", "nextDataTask"]
+- ["15PostGeolocation14TestURLSessionC", "pDataTask"]
+- ["15PostGeolocation14TestURLSessionC", "success"]
+- ["15PostGeolocation14TestURLSessionC", "successHttpURLResponse"]
+- ["15PostGeolocation14TestURLSessionC", "wrongHttpURLResponse"]
+- !private ["15PostGeolocation22TestURLSessionDataTaskC", ""]
+- ["15PostGeolocation22TestURLSessionDataTaskC", "deinit"]
+- ["15PostGeolocation22TestURLSessionDataTaskC", "init"]
+- ["15PostGeolocation22TestURLSessionDataTaskC", "resume"]
+- ["15PostGeolocation22TestURLSessionDataTaskC", "resumeWasCalled"]
+- ["7Combine15TopLevelEncoderP", "encode"]
+- ["7Combine15TopLevelEncoderP", "init"]
+- !private ["10Foundation10URLRequestV", "url"]
+- ["So13NSURLResponseC", ""]
+- !private ["So13NSURLResponseC", "init"]
+- ["15PostGeolocation26URLSessionDataTaskProtocolP", ""]
+- ["15PostGeolocation26URLSessionDataTaskProtocolP", "init"]
+- ["15PostGeolocation26URLSessionDataTaskProtocolP", "resume"]
+- !private ["15PostGeolocation26URLSessionDataTaskProtocolP", "resumeWasCalled"]
+- !private ["15PostGeolocation18URLSessionProtocolP", "HTTPURLResponse"]
+- ["15PostGeolocation18URLSessionProtocolP", "JSONEncoder"]
+- !private ["15PostGeolocation18URLSessionProtocolP", "NSError"]
+- ["15PostGeolocation18URLSessionProtocolP", "TestURLSessionDataTask"]
+- ["15PostGeolocation18URLSessionProtocolP", ""]
+- !private ["15PostGeolocation18URLSessionProtocolP", "isNilData"]
+- !private ["15PostGeolocation18URLSessionProtocolP", "jsonData"]
+- !private ["15PostGeolocation18URLSessionProtocolP", "lastURL"]
+- !private ["15PostGeolocation18URLSessionProtocolP", "nextDataTask"]
+- ["15PostGeolocation18URLSessionProtocolP", "pDataTask"]
+- !private ["15PostGeolocation18URLSessionProtocolP", "success"]
+- !private ["15PostGeolocation18URLSessionProtocolP", "successHttpURLResponse"]
+- !private ["15PostGeolocation18URLSessionProtocolP", "wrongHttpURLResponse"]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "url"]
+depends-nominal:
+- !private "s7CVarArgP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "SQ"
+- !private "s5ErrorP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "So17NSHTTPURLResponseC"
+- !private "SH"
+- "10Foundation11JSONEncoderC"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So7NSErrorC"
+- "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "10Foundation20ReferenceConvertibleP"
+- "15PostGeolocation14TestURLSessionC"
+- "15PostGeolocation22TestURLSessionDataTaskC"
+- "7Combine15TopLevelEncoderP"
+- !private "10Foundation10URLRequestV"
+- "So13NSURLResponseC"
+- "15PostGeolocation26URLSessionDataTaskProtocolP"
+- "15PostGeolocation18URLSessionProtocolP"
+- "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Network.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/galymanuarbek/Desktop/PostGeolocation/.build/x86_64-apple-macosx/debug/PostGeolocation.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Network.framework/Headers/Network.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "6238763407b3a32309e0f2447ca13911"

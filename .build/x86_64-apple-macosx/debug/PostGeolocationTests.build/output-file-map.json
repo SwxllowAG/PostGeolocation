@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/Users/galymanuarbek/Desktop/PostGeolocation/.build/x86_64-apple-macosx/debug/PostGeolocationTests.build/master.swiftdeps"
+  },
+  "/Users/galymanuarbek/Desktop/PostGeolocation/Tests/PostGeolocationTests/PostGeolocationTests.swift": {
+    "dependencies": "/Users/galymanuarbek/Desktop/PostGeolocation/.build/x86_64-apple-macosx/debug/PostGeolocationTests.build/PostGeolocationTests.d",
+    "object": "/Users/galymanuarbek/Desktop/PostGeolocation/.build/x86_64-apple-macosx/debug/PostGeolocationTests.build/PostGeolocationTests.swift.o",
+    "swiftmodule": "/Users/galymanuarbek/Desktop/PostGeolocation/.build/x86_64-apple-macosx/debug/PostGeolocationTests.build/PostGeolocationTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/galymanuarbek/Desktop/PostGeolocation/.build/x86_64-apple-macosx/debug/PostGeolocationTests.build/PostGeolocationTests.swiftdeps"
+  },
+  "/Users/galymanuarbek/Desktop/PostGeolocation/Tests/PostGeolocationTests/XCTestManifests.swift": {
+    "dependencies": "/Users/galymanuarbek/Desktop/PostGeolocation/.build/x86_64-apple-macosx/debug/PostGeolocationTests.build/XCTestManifests.d",
+    "object": "/Users/galymanuarbek/Desktop/PostGeolocation/.build/x86_64-apple-macosx/debug/PostGeolocationTests.build/XCTestManifests.swift.o",
+    "swiftmodule": "/Users/galymanuarbek/Desktop/PostGeolocation/.build/x86_64-apple-macosx/debug/PostGeolocationTests.build/XCTestManifests~partial.swiftmodule",
+    "swift-dependencies": "/Users/galymanuarbek/Desktop/PostGeolocation/.build/x86_64-apple-macosx/debug/PostGeolocationTests.build/XCTestManifests.swiftdeps"
+  }
+}

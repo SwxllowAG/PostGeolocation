@@ -1,0 +1,29 @@
+{
+  "": {
+    "swift-dependencies": "/Users/galymanuarbek/Desktop/PostGeolocation/.build/x86_64-apple-macosx/debug/PostGeolocation.build/master.swiftdeps"
+  },
+  "/Users/galymanuarbek/Desktop/PostGeolocation/Sources/PostGeolocation/PostGeolocation.swift": {
+    "dependencies": "/Users/galymanuarbek/Desktop/PostGeolocation/.build/x86_64-apple-macosx/debug/PostGeolocation.build/PostGeolocation.d",
+    "object": "/Users/galymanuarbek/Desktop/PostGeolocation/.build/x86_64-apple-macosx/debug/PostGeolocation.build/PostGeolocation.swift.o",
+    "swiftmodule": "/Users/galymanuarbek/Desktop/PostGeolocation/.build/x86_64-apple-macosx/debug/PostGeolocation.build/PostGeolocation~partial.swiftmodule",
+    "swift-dependencies": "/Users/galymanuarbek/Desktop/PostGeolocation/.build/x86_64-apple-macosx/debug/PostGeolocation.build/PostGeolocation.swiftdeps"
+  },
+  "/Users/galymanuarbek/Desktop/PostGeolocation/Sources/PostGeolocation/PostGeolocationManager.swift": {
+    "dependencies": "/Users/galymanuarbek/Desktop/PostGeolocation/.build/x86_64-apple-macosx/debug/PostGeolocation.build/PostGeolocationManager.d",
+    "object": "/Users/galymanuarbek/Desktop/PostGeolocation/.build/x86_64-apple-macosx/debug/PostGeolocation.build/PostGeolocationManager.swift.o",
+    "swiftmodule": "/Users/galymanuarbek/Desktop/PostGeolocation/.build/x86_64-apple-macosx/debug/PostGeolocation.build/PostGeolocationManager~partial.swiftmodule",
+    "swift-dependencies": "/Users/galymanuarbek/Desktop/PostGeolocation/.build/x86_64-apple-macosx/debug/PostGeolocation.build/PostGeolocationManager.swiftdeps"
+  },
+  "/Users/galymanuarbek/Desktop/PostGeolocation/Sources/PostGeolocation/TestUrlSession.swift": {
+    "dependencies": "/Users/galymanuarbek/Desktop/PostGeolocation/.build/x86_64-apple-macosx/debug/PostGeolocation.build/TestUrlSession.d",
+    "object": "/Users/galymanuarbek/Desktop/PostGeolocation/.build/x86_64-apple-macosx/debug/PostGeolocation.build/TestUrlSession.swift.o",
+    "swiftmodule": "/Users/galymanuarbek/Desktop/PostGeolocation/.build/x86_64-apple-macosx/debug/PostGeolocation.build/TestUrlSession~partial.swiftmodule",
+    "swift-dependencies": "/Users/galymanuarbek/Desktop/PostGeolocation/.build/x86_64-apple-macosx/debug/PostGeolocation.build/TestUrlSession.swiftdeps"
+  },
+  "/Users/galymanuarbek/Desktop/PostGeolocation/Sources/PostGeolocation/URLSessionProtocol.swift": {
+    "dependencies": "/Users/galymanuarbek/Desktop/PostGeolocation/.build/x86_64-apple-macosx/debug/PostGeolocation.build/URLSessionProtocol.d",
+    "object": "/Users/galymanuarbek/Desktop/PostGeolocation/.build/x86_64-apple-macosx/debug/PostGeolocation.build/URLSessionProtocol.swift.o",
+    "swiftmodule": "/Users/galymanuarbek/Desktop/PostGeolocation/.build/x86_64-apple-macosx/debug/PostGeolocation.build/URLSessionProtocol~partial.swiftmodule",
+    "swift-dependencies": "/Users/galymanuarbek/Desktop/PostGeolocation/.build/x86_64-apple-macosx/debug/PostGeolocation.build/URLSessionProtocol.swiftdeps"
+  }
+}

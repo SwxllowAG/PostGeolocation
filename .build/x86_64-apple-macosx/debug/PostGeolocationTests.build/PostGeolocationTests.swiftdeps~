@@ -1,0 +1,1167 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PostGeolocationTests"
+provides-nominal:
+- "20PostGeolocationTestsAAC"
+provides-member:
+- ["20PostGeolocationTestsAAC", ""]
+provides-dynamic-lookup:
+- "allTests"
+- "client"
+- "sessionFail"
+- "sessionNilData"
+- "sessionSuccess"
+- "setUp"
+- "setupFailClient"
+- "setupNilClient"
+- "setupRealClient"
+- "setupSuccessClient"
+- "tearDown"
+- "testFail"
+- "testGeneral"
+- "testHttbinGeneral"
+- "testHttbinNilValues"
+- "testInvalidURL"
+- "testNilData"
+depends-top-level:
+- !private "!"
+- "!="
+- "=="
+- "Array"
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- !private "CastingPrecedence"
+- !private "Date"
+- !private "FloatLiteralType"
+- "Int"
+- "Int64"
+- !private "IntegerLiteralType"
+- "JSONDecoder"
+- "JSONSerialization"
+- "PostGeolocation"
+- "PostGeolocationTests"
+- "String"
+- "StringLiteralType"
+- "TestURLSession"
+- !private "TestURLSessionDataTask"
+- !private "URLSession"
+- !private "XCTAssert"
+- "XCTestCase"
+- "assert"
+- !private "client"
+- !private "sessionFail"
+- !private "sessionNilData"
+- !private "sessionSuccess"
+- !private "setupFailClient"
+- !private "setupNilClient"
+- !private "setupRealClient"
+- !private "setupSuccessClient"
+- "testFail"
+- "testGeneral"
+- "testInvalidURL"
+- "testNilData"
+depends-member:
+- !private ["s18AdditiveArithmeticP", ""]
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["s18AdditiveArithmeticP", "invalidUrl"]
+- !private ["s18AdditiveArithmeticP", "nilData"]
+- !private ["10Foundation15AffineTransformV", "invalidUrl"]
+- !private ["10Foundation15AffineTransformV", "nilData"]
+- !private ["s11AnyHashableV", "invalidUrl"]
+- !private ["s11AnyHashableV", "nilData"]
+- !private ["s8AnyIndexV", "invalidUrl"]
+- !private ["s8AnyIndexV", "nilData"]
+- !private ["s10AnyKeyPathC", "invalidUrl"]
+- !private ["s10AnyKeyPathC", "nilData"]
+- !private ["So17OS_dispatch_queueC8DispatchE20AutoreleaseFrequencyO", "invalidUrl"]
+- !private ["So17OS_dispatch_queueC8DispatchE20AutoreleaseFrequencyO", "nilData"]
+- !private ["SK", ""]
+- !private ["SK", "invalidUrl"]
+- !private ["SK", "nilData"]
+- !private ["Sz", ""]
+- !private ["Sz", "init"]
+- !private ["Sz", "invalidUrl"]
+- !private ["Sz", "nilData"]
+- !private ["Sb", "invalidUrl"]
+- !private ["Sb", "nilData"]
+- !private ["So17CGAffineTransformV", "invalidUrl"]
+- !private ["So17CGAffineTransformV", "nilData"]
+- !private ["So7CGPointV", "invalidUrl"]
+- !private ["So7CGPointV", "nilData"]
+- !private ["So6CGRectV", "invalidUrl"]
+- !private ["So6CGRectV", "nilData"]
+- !private ["So6CGSizeV", "invalidUrl"]
+- !private ["So6CGSizeV", "nilData"]
+- !private ["So8CGVectorV", "invalidUrl"]
+- !private ["So8CGVectorV", "nilData"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "init"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "invalidUrl"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "nilData"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "timeIntervalSince1970"]
+- !private ["s7CVarArgP", "Date"]
+- !private ["s7CVarArgP", "Int64"]
+- !private ["s7CVarArgP", "JSONDecoder"]
+- !private ["s7CVarArgP", "JSONSerialization"]
+- !private ["s7CVarArgP", "PostGeolocation"]
+- !private ["s7CVarArgP", "String"]
+- ["s7CVarArgP", "TestURLSession"]
+- !private ["s7CVarArgP", "TestURLSessionDataTask"]
+- !private ["s7CVarArgP", "URLSession"]
+- !private ["s7CVarArgP", "XCTAssert"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "assert"]
+- !private ["s7CVarArgP", "client"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "invalidUrl"]
+- !private ["s7CVarArgP", "jsonObject"]
+- !private ["s7CVarArgP", "nilData"]
+- !private ["s7CVarArgP", "sessionFail"]
+- !private ["s7CVarArgP", "sessionNilData"]
+- !private ["s7CVarArgP", "sessionSuccess"]
+- !private ["s7CVarArgP", "setUp"]
+- !private ["s7CVarArgP", "setupFailClient"]
+- !private ["s7CVarArgP", "setupNilClient"]
+- !private ["s7CVarArgP", "setupRealClient"]
+- !private ["s7CVarArgP", "setupSuccessClient"]
+- !private ["s7CVarArgP", "shared"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "tearDown"]
+- ["s7CVarArgP", "testFail"]
+- ["s7CVarArgP", "testGeneral"]
+- !private ["s7CVarArgP", "testHttbinGeneral"]
+- !private ["s7CVarArgP", "testHttbinNilValues"]
+- ["s7CVarArgP", "testInvalidURL"]
+- ["s7CVarArgP", "testNilData"]
+- !private ["10Foundation8CalendarV", "invalidUrl"]
+- !private ["10Foundation8CalendarV", "nilData"]
+- !private ["s7UnicodeO23CanonicalCombiningClassV", "invalidUrl"]
+- !private ["s7UnicodeO23CanonicalCombiningClassV", "nilData"]
+- !private ["SJ", "invalidUrl"]
+- !private ["SJ", "nilData"]
+- !private ["10Foundation12CharacterSetV", "invalidUrl"]
+- !private ["10Foundation12CharacterSetV", "nilData"]
+- !private ["s17CodingUserInfoKeyV", "invalidUrl"]
+- !private ["s17CodingUserInfoKeyV", "nilData"]
+- !private ["Sl", ""]
+- !private ["Sl", "invalidUrl"]
+- !private ["Sl", "nilData"]
+- !private ["Sl", "subscript"]
+- !private ["SL", ""]
+- !private ["SL", "init"]
+- !private ["SL", "invalidUrl"]
+- !private ["SL", "nilData"]
+- !private ["SL", "timeIntervalSince1970"]
+- !private ["10Foundation8CalendarV9ComponentO", "invalidUrl"]
+- !private ["10Foundation8CalendarV9ComponentO", "nilData"]
+- !private ["10Foundation15ContiguousBytesP", "invalidUrl"]
+- !private ["10Foundation15ContiguousBytesP", "nilData"]
+- !private ["s28CustomDebugStringConvertibleP", "Date"]
+- !private ["s28CustomDebugStringConvertibleP", "Int64"]
+- !private ["s28CustomDebugStringConvertibleP", "JSONDecoder"]
+- !private ["s28CustomDebugStringConvertibleP", "JSONSerialization"]
+- !private ["s28CustomDebugStringConvertibleP", "PostGeolocation"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- ["s28CustomDebugStringConvertibleP", "TestURLSession"]
+- !private ["s28CustomDebugStringConvertibleP", "TestURLSessionDataTask"]
+- !private ["s28CustomDebugStringConvertibleP", "URLSession"]
+- !private ["s28CustomDebugStringConvertibleP", "XCTAssert"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "assert"]
+- !private ["s28CustomDebugStringConvertibleP", "client"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "invalidUrl"]
+- !private ["s28CustomDebugStringConvertibleP", "jsonObject"]
+- !private ["s28CustomDebugStringConvertibleP", "log"]
+- !private ["s28CustomDebugStringConvertibleP", "nilData"]
+- !private ["s28CustomDebugStringConvertibleP", "sessionFail"]
+- !private ["s28CustomDebugStringConvertibleP", "sessionNilData"]
+- !private ["s28CustomDebugStringConvertibleP", "sessionSuccess"]
+- !private ["s28CustomDebugStringConvertibleP", "setUp"]
+- !private ["s28CustomDebugStringConvertibleP", "setupFailClient"]
+- !private ["s28CustomDebugStringConvertibleP", "setupNilClient"]
+- !private ["s28CustomDebugStringConvertibleP", "setupRealClient"]
+- !private ["s28CustomDebugStringConvertibleP", "setupSuccessClient"]
+- !private ["s28CustomDebugStringConvertibleP", "shared"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "tearDown"]
+- ["s28CustomDebugStringConvertibleP", "testFail"]
+- ["s28CustomDebugStringConvertibleP", "testGeneral"]
+- !private ["s28CustomDebugStringConvertibleP", "testHttbinGeneral"]
+- !private ["s28CustomDebugStringConvertibleP", "testHttbinNilValues"]
+- ["s28CustomDebugStringConvertibleP", "testInvalidURL"]
+- ["s28CustomDebugStringConvertibleP", "testNilData"]
+- !private ["s28CustomDebugStringConvertibleP", "timeIntervalSince1970"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "invalidUrl"]
+- !private ["s17CustomReflectableP", "log"]
+- !private ["s17CustomReflectableP", "nilData"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "timeIntervalSince1970"]
+- !private ["s23CustomStringConvertibleP", "Date"]
+- !private ["s23CustomStringConvertibleP", "Int64"]
+- !private ["s23CustomStringConvertibleP", "JSONDecoder"]
+- !private ["s23CustomStringConvertibleP", "JSONSerialization"]
+- !private ["s23CustomStringConvertibleP", "PostGeolocation"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- ["s23CustomStringConvertibleP", "TestURLSession"]
+- !private ["s23CustomStringConvertibleP", "TestURLSessionDataTask"]
+- !private ["s23CustomStringConvertibleP", "URLSession"]
+- !private ["s23CustomStringConvertibleP", "XCTAssert"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "assert"]
+- !private ["s23CustomStringConvertibleP", "client"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "invalidUrl"]
+- !private ["s23CustomStringConvertibleP", "jsonObject"]
+- !private ["s23CustomStringConvertibleP", "nilData"]
+- !private ["s23CustomStringConvertibleP", "sessionFail"]
+- !private ["s23CustomStringConvertibleP", "sessionNilData"]
+- !private ["s23CustomStringConvertibleP", "sessionSuccess"]
+- !private ["s23CustomStringConvertibleP", "setUp"]
+- !private ["s23CustomStringConvertibleP", "setupFailClient"]
+- !private ["s23CustomStringConvertibleP", "setupNilClient"]
+- !private ["s23CustomStringConvertibleP", "setupRealClient"]
+- !private ["s23CustomStringConvertibleP", "setupSuccessClient"]
+- !private ["s23CustomStringConvertibleP", "shared"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "tearDown"]
+- ["s23CustomStringConvertibleP", "testFail"]
+- ["s23CustomStringConvertibleP", "testGeneral"]
+- !private ["s23CustomStringConvertibleP", "testHttbinGeneral"]
+- !private ["s23CustomStringConvertibleP", "testHttbinNilValues"]
+- ["s23CustomStringConvertibleP", "testInvalidURL"]
+- ["s23CustomStringConvertibleP", "testNilData"]
+- !private ["s23CustomStringConvertibleP", "timeIntervalSince1970"]
+- !private ["6Darwin0A7BooleanV", "invalidUrl"]
+- !private ["6Darwin0A7BooleanV", "nilData"]
+- !private ["10Foundation4DataV", "invalidUrl"]
+- !private ["10Foundation4DataV", "nilData"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "invalidUrl"]
+- !private ["10Foundation12DataProtocolP", "nilData"]
+- !private ["10Foundation4DateV", "init"]
+- !private ["10Foundation4DateV", "invalidUrl"]
+- !private ["10Foundation4DateV", "nilData"]
+- !private ["10Foundation4DateV", "timeIntervalSince1970"]
+- !private ["10Foundation14DateComponentsV", "invalidUrl"]
+- !private ["10Foundation14DateComponentsV", "nilData"]
+- !private ["10Foundation12DateIntervalV", "invalidUrl"]
+- !private ["10Foundation12DateIntervalV", "nilData"]
+- !private ["So9NSDecimala", "invalidUrl"]
+- !private ["So9NSDecimala", "nilData"]
+- !private ["Se", "init"]
+- !private ["Se", "invalidUrl"]
+- !private ["Se", "log"]
+- !private ["Se", "nilData"]
+- !private ["Se", "subscript"]
+- !private ["Se", "timeIntervalSince1970"]
+- !private ["SD", "subscript"]
+- !private ["8Dispatch0A3QoSV", "invalidUrl"]
+- !private ["8Dispatch0A3QoSV", "nilData"]
+- !private ["8Dispatch0A4TimeV", "invalidUrl"]
+- !private ["8Dispatch0A4TimeV", "nilData"]
+- !private ["8Dispatch0A12TimeIntervalO", "invalidUrl"]
+- !private ["8Dispatch0A12TimeIntervalO", "nilData"]
+- !private ["8Dispatch0A13TimeoutResultO", "invalidUrl"]
+- !private ["8Dispatch0A13TimeoutResultO", "nilData"]
+- !private ["8Dispatch0A8WallTimeV", "invalidUrl"]
+- !private ["8Dispatch0A8WallTimeV", "nilData"]
+- !private ["s6MirrorV12DisplayStyleO", "invalidUrl"]
+- !private ["s6MirrorV12DisplayStyleO", "nilData"]
+- !private ["SE", "init"]
+- !private ["SE", "invalidUrl"]
+- !private ["SE", "log"]
+- !private ["SE", "nilData"]
+- !private ["SE", "subscript"]
+- !private ["SE", "timeIntervalSince1970"]
+- !private ["SS10FoundationE8EncodingV", "invalidUrl"]
+- !private ["SS10FoundationE8EncodingV", "nilData"]
+- !private ["SQ", "=="]
+- !private ["SQ", "ArrayLiteralElement"]
+- !private ["SQ", "Date"]
+- !private ["SQ", "Element"]
+- !private ["SQ", "Int64"]
+- !private ["SQ", "JSONDecoder"]
+- !private ["SQ", "JSONSerialization"]
+- !private ["SQ", "PostGeolocation"]
+- !private ["SQ", "String"]
+- ["SQ", "TestURLSession"]
+- !private ["SQ", "TestURLSessionDataTask"]
+- !private ["SQ", "URLSession"]
+- !private ["SQ", "XCTAssert"]
+- ["SQ", ""]
+- !private ["SQ", "assert"]
+- !private ["SQ", "client"]
+- !private ["SQ", "init"]
+- !private ["SQ", "invalidUrl"]
+- !private ["SQ", "jsonObject"]
+- !private ["SQ", "log"]
+- !private ["SQ", "nilData"]
+- !private ["SQ", "sessionFail"]
+- !private ["SQ", "sessionNilData"]
+- !private ["SQ", "sessionSuccess"]
+- !private ["SQ", "setUp"]
+- !private ["SQ", "setupFailClient"]
+- !private ["SQ", "setupNilClient"]
+- !private ["SQ", "setupRealClient"]
+- !private ["SQ", "setupSuccessClient"]
+- !private ["SQ", "shared"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "tearDown"]
+- ["SQ", "testFail"]
+- ["SQ", "testGeneral"]
+- !private ["SQ", "testHttbinGeneral"]
+- !private ["SQ", "testHttbinNilValues"]
+- ["SQ", "testInvalidURL"]
+- ["SQ", "testNilData"]
+- !private ["SQ", "timeIntervalSince1970"]
+- !private ["s5ErrorP", "invalidUrl"]
+- !private ["s5ErrorP", "nilData"]
+- !private ["s25ExpressibleByArrayLiteralP", "ArrayLiteralElement"]
+- !private ["s25ExpressibleByArrayLiteralP", "Element"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "invalidUrl"]
+- !private ["s25ExpressibleByArrayLiteralP", "nilData"]
+- !private ["s27ExpressibleByBooleanLiteralP", "invalidUrl"]
+- !private ["s27ExpressibleByBooleanLiteralP", "nilData"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "invalidUrl"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "nilData"]
+- !private ["s25ExpressibleByFloatLiteralP", "invalidUrl"]
+- !private ["s25ExpressibleByFloatLiteralP", "nilData"]
+- !private ["s27ExpressibleByIntegerLiteralP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "invalidUrl"]
+- !private ["s27ExpressibleByIntegerLiteralP", "nilData"]
+- !private ["s23ExpressibleByNilLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "invalidUrl"]
+- !private ["s23ExpressibleByNilLiteralP", "log"]
+- !private ["s23ExpressibleByNilLiteralP", "nilData"]
+- !private ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s32ExpressibleByStringInterpolationP", "invalidUrl"]
+- !private ["s32ExpressibleByStringInterpolationP", "nilData"]
+- !private ["s26ExpressibleByStringLiteralP", ""]
+- !private ["s26ExpressibleByStringLiteralP", "invalidUrl"]
+- !private ["s26ExpressibleByStringLiteralP", "nilData"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "invalidUrl"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "nilData"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["s17FixedWidthIntegerP", "invalidUrl"]
+- !private ["s17FixedWidthIntegerP", "nilData"]
+- !private ["s27FloatingPointClassificationO", "invalidUrl"]
+- !private ["s27FloatingPointClassificationO", "nilData"]
+- !private ["s25FloatingPointRoundingRuleO", "invalidUrl"]
+- !private ["s25FloatingPointRoundingRuleO", "nilData"]
+- !private ["s17FloatingPointSignO", "invalidUrl"]
+- !private ["s17FloatingPointSignO", "nilData"]
+- !private ["s7UnicodeO15GeneralCategoryO", "invalidUrl"]
+- !private ["s7UnicodeO15GeneralCategoryO", "nilData"]
+- !private ["So17OS_dispatch_queueC8DispatchE19GlobalQueuePriorityO", "invalidUrl"]
+- !private ["So17OS_dispatch_queueC8DispatchE19GlobalQueuePriorityO", "nilData"]
+- !private ["SH", "Date"]
+- !private ["SH", "Int64"]
+- !private ["SH", "JSONDecoder"]
+- !private ["SH", "JSONSerialization"]
+- !private ["SH", "PostGeolocation"]
+- !private ["SH", "String"]
+- ["SH", "TestURLSession"]
+- !private ["SH", "TestURLSessionDataTask"]
+- !private ["SH", "URLSession"]
+- !private ["SH", "XCTAssert"]
+- ["SH", ""]
+- !private ["SH", "assert"]
+- !private ["SH", "client"]
+- !private ["SH", "init"]
+- !private ["SH", "invalidUrl"]
+- !private ["SH", "jsonObject"]
+- !private ["SH", "log"]
+- !private ["SH", "nilData"]
+- !private ["SH", "sessionFail"]
+- !private ["SH", "sessionNilData"]
+- !private ["SH", "sessionSuccess"]
+- !private ["SH", "setUp"]
+- !private ["SH", "setupFailClient"]
+- !private ["SH", "setupNilClient"]
+- !private ["SH", "setupRealClient"]
+- !private ["SH", "setupSuccessClient"]
+- !private ["SH", "shared"]
+- !private ["SH", "subscript"]
+- !private ["SH", "tearDown"]
+- ["SH", "testFail"]
+- ["SH", "testGeneral"]
+- !private ["SH", "testHttbinGeneral"]
+- !private ["SH", "testHttbinNilValues"]
+- ["SH", "testInvalidURL"]
+- ["SH", "testNilData"]
+- !private ["SH", "timeIntervalSince1970"]
+- !private ["10Foundation8CalendarV10IdentifierO", "invalidUrl"]
+- !private ["10Foundation8CalendarV10IdentifierO", "nilData"]
+- !private ["10Foundation8IndexSetV0B0V", "invalidUrl"]
+- !private ["SS5IndexV", "invalidUrl"]
+- !private ["s16_ValidUTF8BufferV5IndexV", "invalidUrl"]
+- !private ["10Foundation8IndexSetV0B0V", "nilData"]
+- !private ["SS5IndexV", "nilData"]
+- !private ["s16_ValidUTF8BufferV5IndexV", "nilData"]
+- !private ["10Foundation9IndexPathV", "invalidUrl"]
+- !private ["10Foundation9IndexPathV", "nilData"]
+- !private ["10Foundation8IndexSetV", "invalidUrl"]
+- !private ["10Foundation8IndexSetV", "nilData"]
+- !private ["Si", "invalidUrl"]
+- !private ["Si", "nilData"]
+- !private ["s5Int16V", "invalidUrl"]
+- !private ["s5Int16V", "nilData"]
+- !private ["s5Int32V", "invalidUrl"]
+- !private ["s5Int32V", "nilData"]
+- !private ["s5Int64V", "init"]
+- !private ["s5Int64V", "invalidUrl"]
+- !private ["s5Int64V", "nilData"]
+- !private ["s4Int8V", "invalidUrl"]
+- !private ["s4Int8V", "nilData"]
+- !private ["10Foundation11JSONDecoderC", "decode"]
+- !private ["10Foundation11JSONDecoderC", "init"]
+- !private ["So19NSJSONSerializationC", "jsonObject"]
+- !private ["10Foundation6LocaleV", "invalidUrl"]
+- !private ["10Foundation6LocaleV", "nilData"]
+- !private ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "invalidUrl"]
+- !private ["s25LosslessStringConvertibleP", "nilData"]
+- !private ["10Foundation8CalendarV14MatchingPolicyO", "invalidUrl"]
+- !private ["10Foundation8CalendarV14MatchingPolicyO", "nilData"]
+- !private ["s10MirrorPathP", "invalidUrl"]
+- !private ["s10MirrorPathP", "nilData"]
+- !private ["SM", ""]
+- !private ["SM", "invalidUrl"]
+- !private ["SM", "nilData"]
+- !private ["10Foundation19MutableDataProtocolP", "invalidUrl"]
+- !private ["10Foundation19MutableDataProtocolP", "nilData"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSObjectC", "Date"]
+- !private ["So8NSObjectC", "Int"]
+- !private ["So8NSObjectC", "Int64"]
+- !private ["So8NSObjectC", "JSONDecoder"]
+- !private ["So8NSObjectC", "JSONObjectWithData"]
+- !private ["So8NSObjectC", "JSONObjectWithStream"]
+- !private ["So8NSObjectC", "JSONSerialization"]
+- ["So8NSObjectC", "PostGeolocation"]
+- !private ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "TestURLSession"]
+- !private ["So8NSObjectC", "TestURLSessionDataTask"]
+- !private ["So8NSObjectC", "URLSession"]
+- !private ["So8NSObjectC", "XCTAssert"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "allTests"]
+- !private ["So8NSObjectC", "assert"]
+- ["So8NSObjectC", "client"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "invalidUrl"]
+- !private ["So8NSObjectC", "jsonObject"]
+- !private ["So8NSObjectC", "nilData"]
+- ["So8NSObjectC", "sessionFail"]
+- ["So8NSObjectC", "sessionNilData"]
+- ["So8NSObjectC", "sessionSuccess"]
+- ["So8NSObjectC", "setUp"]
+- ["So8NSObjectC", "setupFailClient"]
+- ["So8NSObjectC", "setupNilClient"]
+- ["So8NSObjectC", "setupRealClient"]
+- ["So8NSObjectC", "setupSuccessClient"]
+- !private ["So8NSObjectC", "shared"]
+- ["So8NSObjectC", "tearDown"]
+- ["So8NSObjectC", "testCaseWithInvocation"]
+- ["So8NSObjectC", "testCaseWithSelector"]
+- ["So8NSObjectC", "testFail"]
+- ["So8NSObjectC", "testGeneral"]
+- ["So8NSObjectC", "testHttbinGeneral"]
+- ["So8NSObjectC", "testHttbinNilValues"]
+- ["So8NSObjectC", "testInvalidURL"]
+- ["So8NSObjectC", "testNilData"]
+- !private ["So8NSObjectP", "Date"]
+- !private ["So8NSObjectP", "Int"]
+- !private ["So8NSObjectP", "Int64"]
+- !private ["So8NSObjectP", "JSONDecoder"]
+- !private ["So8NSObjectP", "JSONObjectWithData"]
+- !private ["So8NSObjectP", "JSONObjectWithStream"]
+- !private ["So8NSObjectP", "JSONSerialization"]
+- ["So8NSObjectP", "PostGeolocation"]
+- !private ["So8NSObjectP", "String"]
+- ["So8NSObjectP", "TestURLSession"]
+- !private ["So8NSObjectP", "TestURLSessionDataTask"]
+- !private ["So8NSObjectP", "URLSession"]
+- !private ["So8NSObjectP", "XCTAssert"]
+- ["So8NSObjectP", ""]
+- ["So8NSObjectP", "allTests"]
+- !private ["So8NSObjectP", "assert"]
+- ["So8NSObjectP", "client"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "invalidUrl"]
+- !private ["So8NSObjectP", "jsonObject"]
+- !private ["So8NSObjectP", "nilData"]
+- ["So8NSObjectP", "sessionFail"]
+- ["So8NSObjectP", "sessionNilData"]
+- ["So8NSObjectP", "sessionSuccess"]
+- ["So8NSObjectP", "setUp"]
+- ["So8NSObjectP", "setupFailClient"]
+- ["So8NSObjectP", "setupNilClient"]
+- ["So8NSObjectP", "setupRealClient"]
+- ["So8NSObjectP", "setupSuccessClient"]
+- !private ["So8NSObjectP", "shared"]
+- ["So8NSObjectP", "tearDown"]
+- ["So8NSObjectP", "testCaseWithInvocation"]
+- ["So8NSObjectP", "testCaseWithSelector"]
+- ["So8NSObjectP", "testFail"]
+- ["So8NSObjectP", "testGeneral"]
+- ["So8NSObjectP", "testHttbinGeneral"]
+- ["So8NSObjectP", "testHttbinNilValues"]
+- ["So8NSObjectP", "testInvalidURL"]
+- ["So8NSObjectP", "testNilData"]
+- !private ["s5NeverO", "invalidUrl"]
+- !private ["s5NeverO", "nilData"]
+- !private ["10Foundation12NotificationV", "invalidUrl"]
+- !private ["10Foundation12NotificationV", "nilData"]
+- !private ["So9NSScannerC10FoundationE20NumberRepresentationO", "invalidUrl"]
+- !private ["So9NSScannerC10FoundationE20NumberRepresentationO", "nilData"]
+- !private ["Sj", ""]
+- !private ["Sj", "init"]
+- !private ["Sj", "invalidUrl"]
+- !private ["Sj", "nilData"]
+- !private ["s7UnicodeO11NumericTypeO", "invalidUrl"]
+- !private ["s7UnicodeO11NumericTypeO", "nilData"]
+- !private ["SO", "invalidUrl"]
+- !private ["SO", "nilData"]
+- !private ["s13OpaquePointerV", "invalidUrl"]
+- !private ["s13OpaquePointerV", "nilData"]
+- !private ["s9OptionSetP", "ArrayLiteralElement"]
+- !private ["s9OptionSetP", "Element"]
+- !private ["s9OptionSetP", "init"]
+- !private ["Sq", "invalidUrl"]
+- !private ["Sq", "log"]
+- !private ["Sq", "nilData"]
+- !private ["10Foundation20PersonNameComponentsV", "invalidUrl"]
+- !private ["10Foundation20PersonNameComponentsV", "nilData"]
+- !private ["15PostGeolocationAAC", "init"]
+- !private ["15PostGeolocationAAC", "log"]
+- !private ["15PostGeolocation0aB5ErrorO", "invalidUrl"]
+- !private ["15PostGeolocation0aB5ErrorO", "nilData"]
+- !private ["20PostGeolocationTestsAAC", "Date"]
+- !private ["20PostGeolocationTestsAAC", "Int"]
+- !private ["20PostGeolocationTestsAAC", "Int64"]
+- !private ["20PostGeolocationTestsAAC", "JSONDecoder"]
+- !private ["20PostGeolocationTestsAAC", "JSONSerialization"]
+- ["20PostGeolocationTestsAAC", "PostGeolocation"]
+- !private ["20PostGeolocationTestsAAC", "String"]
+- ["20PostGeolocationTestsAAC", "TestURLSession"]
+- !private ["20PostGeolocationTestsAAC", "TestURLSessionDataTask"]
+- !private ["20PostGeolocationTestsAAC", "URLSession"]
+- !private ["20PostGeolocationTestsAAC", "XCTAssert"]
+- ["20PostGeolocationTestsAAC", ""]
+- ["20PostGeolocationTestsAAC", "allTests"]
+- !private ["20PostGeolocationTestsAAC", "assert"]
+- ["20PostGeolocationTestsAAC", "client"]
+- ["20PostGeolocationTestsAAC", "deinit"]
+- ["20PostGeolocationTestsAAC", "init"]
+- ["20PostGeolocationTestsAAC", "sessionFail"]
+- ["20PostGeolocationTestsAAC", "sessionNilData"]
+- ["20PostGeolocationTestsAAC", "sessionSuccess"]
+- ["20PostGeolocationTestsAAC", "setUp"]
+- !private ["20PostGeolocationTestsAAC", "setupFailClient"]
+- !private ["20PostGeolocationTestsAAC", "setupNilClient"]
+- !private ["20PostGeolocationTestsAAC", "setupRealClient"]
+- !private ["20PostGeolocationTestsAAC", "setupSuccessClient"]
+- ["20PostGeolocationTestsAAC", "tearDown"]
+- ["20PostGeolocationTestsAAC", "testFail"]
+- ["20PostGeolocationTestsAAC", "testGeneral"]
+- ["20PostGeolocationTestsAAC", "testHttbinGeneral"]
+- ["20PostGeolocationTestsAAC", "testHttbinNilValues"]
+- ["20PostGeolocationTestsAAC", "testInvalidURL"]
+- ["20PostGeolocationTestsAAC", "testNilData"]
+- !private ["7Combine9PublisherP", "invalidUrl"]
+- !private ["So20NSNotificationCenterC10FoundationE9PublisherV", "invalidUrl"]
+- !private ["7Combine9PublisherP", "nilData"]
+- !private ["So20NSNotificationCenterC10FoundationE9PublisherV", "nilData"]
+- !private ["8Dispatch0A3QoSV0B6SClassO", "invalidUrl"]
+- !private ["8Dispatch0A3QoSV0B6SClassO", "nilData"]
+- !private ["Sk", ""]
+- !private ["Sk", "invalidUrl"]
+- !private ["Sk", "nilData"]
+- !private ["Sm", ""]
+- !private ["Sm", "invalidUrl"]
+- !private ["Sm", "nilData"]
+- !private ["10Foundation8IndexSetV9RangeViewV", "invalidUrl"]
+- !private ["10Foundation8IndexSetV9RangeViewV", "nilData"]
+- !private ["SY", "ArrayLiteralElement"]
+- !private ["SY", "Element"]
+- !private ["SY", ""]
+- !private ["SY", "init"]
+- !private ["SY", "invalidUrl"]
+- !private ["SY", "nilData"]
+- !private ["So20NSJSONReadingOptionsV", "ArrayLiteralElement"]
+- !private ["So20NSJSONReadingOptionsV", "Element"]
+- !private ["So20NSJSONReadingOptionsV", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "invalidUrl"]
+- !private ["10Foundation20ReferenceConvertibleP", "nilData"]
+- !private ["10Foundation20ReferenceConvertibleP", "timeIntervalSince1970"]
+- !private ["10Foundation8CalendarV18RepeatedTimePolicyO", "invalidUrl"]
+- !private ["10Foundation8CalendarV18RepeatedTimePolicyO", "nilData"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["s10SIMDScalarP", "invalidUrl"]
+- !private ["s10SIMDScalarP", "nilData"]
+- !private ["s7UnicodeO6ScalarV", "invalidUrl"]
+- !private ["s7UnicodeO6ScalarV", "nilData"]
+- !private ["7Combine32SchedulerTimeIntervalConvertibleP", "invalidUrl"]
+- !private ["7Combine32SchedulerTimeIntervalConvertibleP", "nilData"]
+- !private ["10Foundation8CalendarV15SearchDirectionO", "invalidUrl"]
+- !private ["10Foundation8CalendarV15SearchDirectionO", "nilData"]
+- !private ["10ObjectiveC8SelectorV", "invalidUrl"]
+- !private ["10ObjectiveC8SelectorV", "nilData"]
+- !private ["ST", ""]
+- !private ["ST", "invalidUrl"]
+- !private ["ST", "nilData"]
+- !private ["ST", "subscript"]
+- !private ["s10SetAlgebraP", "ArrayLiteralElement"]
+- !private ["s10SetAlgebraP", "Element"]
+- !private ["s10SetAlgebraP", ""]
+- !private ["s10SetAlgebraP", "init"]
+- !private ["s10SetAlgebraP", "invalidUrl"]
+- !private ["s10SetAlgebraP", "nilData"]
+- !private ["SZ", "init"]
+- !private ["SZ", "invalidUrl"]
+- !private ["SZ", "nilData"]
+- !private ["s13SignedNumericP", ""]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s13SignedNumericP", "invalidUrl"]
+- !private ["s13SignedNumericP", "nilData"]
+- !private ["So16NSOperationQueueC10FoundationE17SchedulerTimeTypeV6StrideV", "invalidUrl"]
+- !private ["So17OS_dispatch_queueC8DispatchE17SchedulerTimeTypeV6StrideV", "invalidUrl"]
+- !private ["So9NSRunLoopC10FoundationE17SchedulerTimeTypeV6StrideV", "invalidUrl"]
+- !private ["So16NSOperationQueueC10FoundationE17SchedulerTimeTypeV6StrideV", "nilData"]
+- !private ["So17OS_dispatch_queueC8DispatchE17SchedulerTimeTypeV6StrideV", "nilData"]
+- !private ["So9NSRunLoopC10FoundationE17SchedulerTimeTypeV6StrideV", "nilData"]
+- !private ["Sx", ""]
+- !private ["Sx", "init"]
+- !private ["Sx", "invalidUrl"]
+- !private ["Sx", "nilData"]
+- !private ["SS", "invalidUrl"]
+- !private ["SS", "nilData"]
+- !private ["Sy", "invalidUrl"]
+- !private ["Sy", "nilData"]
+- ["15PostGeolocation14TestURLSessionC", "init"]
+- !private ["15PostGeolocation14TestURLSessionC", "isNilData"]
+- !private ["15PostGeolocation14TestURLSessionC", "nextDataTask"]
+- !private ["15PostGeolocation14TestURLSessionC", "success"]
+- !private ["15PostGeolocation22TestURLSessionDataTaskC", "init"]
+- !private ["15PostGeolocation22TestURLSessionDataTaskC", "resumeWasCalled"]
+- !private ["s16TextOutputStreamP", ""]
+- !private ["s16TextOutputStreamP", "invalidUrl"]
+- !private ["s16TextOutputStreamP", "nilData"]
+- !private ["s20TextOutputStreamableP", ""]
+- !private ["s20TextOutputStreamableP", "invalidUrl"]
+- !private ["s20TextOutputStreamableP", "nilData"]
+- !private ["10Foundation8TimeZoneV", "invalidUrl"]
+- !private ["10Foundation8TimeZoneV", "nilData"]
+- !private ["7Combine15TopLevelDecoderP", "decode"]
+- !private ["7Combine15TopLevelDecoderP", "init"]
+- !private ["Su", "invalidUrl"]
+- !private ["Su", "nilData"]
+- !private ["s6UInt16V", "invalidUrl"]
+- !private ["s6UInt16V", "nilData"]
+- !private ["s6UInt32V", "invalidUrl"]
+- !private ["s6UInt32V", "nilData"]
+- !private ["s6UInt64V", "invalidUrl"]
+- !private ["s6UInt64V", "nilData"]
+- !private ["s5UInt8V", "invalidUrl"]
+- !private ["s5UInt8V", "nilData"]
+- !private ["10Foundation3URLV", "invalidUrl"]
+- !private ["10Foundation3URLV", "nilData"]
+- !private ["10Foundation13URLComponentsV", "invalidUrl"]
+- !private ["10Foundation13URLComponentsV", "nilData"]
+- !private ["10Foundation12URLQueryItemV", "invalidUrl"]
+- !private ["10Foundation12URLQueryItemV", "nilData"]
+- !private ["10Foundation10URLRequestV", "invalidUrl"]
+- !private ["10Foundation10URLRequestV", "nilData"]
+- !private ["So12NSURLSessionC", "shared"]
+- !private ["15PostGeolocation26URLSessionDataTaskProtocolP", "init"]
+- !private ["15PostGeolocation26URLSessionDataTaskProtocolP", "resumeWasCalled"]
+- ["15PostGeolocation18URLSessionProtocolP", "init"]
+- !private ["15PostGeolocation18URLSessionProtocolP", "isNilData"]
+- !private ["15PostGeolocation18URLSessionProtocolP", "nextDataTask"]
+- !private ["15PostGeolocation18URLSessionProtocolP", "shared"]
+- !private ["15PostGeolocation18URLSessionProtocolP", "success"]
+- !private ["s7UnicodeO5UTF32O", "invalidUrl"]
+- !private ["s7UnicodeO5UTF32O", "nilData"]
+- !private ["10Foundation4UUIDV", "invalidUrl"]
+- !private ["10Foundation4UUIDV", "nilData"]
+- !private ["s12UnicodeCodecP", "invalidUrl"]
+- !private ["s12UnicodeCodecP", "nilData"]
+- !private ["s21UnicodeDecodingResultO", "invalidUrl"]
+- !private ["s21UnicodeDecodingResultO", "nilData"]
+- !private ["SU", "invalidUrl"]
+- !private ["SU", "nilData"]
+- !private ["So11XCTActivityP", "Date"]
+- !private ["So11XCTActivityP", "Int"]
+- !private ["So11XCTActivityP", "Int64"]
+- !private ["So11XCTActivityP", "JSONDecoder"]
+- !private ["So11XCTActivityP", "JSONSerialization"]
+- ["So11XCTActivityP", "PostGeolocation"]
+- !private ["So11XCTActivityP", "String"]
+- ["So11XCTActivityP", "TestURLSession"]
+- !private ["So11XCTActivityP", "TestURLSessionDataTask"]
+- !private ["So11XCTActivityP", "URLSession"]
+- !private ["So11XCTActivityP", "XCTAssert"]
+- ["So11XCTActivityP", ""]
+- ["So11XCTActivityP", "allTests"]
+- !private ["So11XCTActivityP", "assert"]
+- ["So11XCTActivityP", "client"]
+- ["So11XCTActivityP", "init"]
+- ["So11XCTActivityP", "sessionFail"]
+- ["So11XCTActivityP", "sessionNilData"]
+- ["So11XCTActivityP", "sessionSuccess"]
+- ["So11XCTActivityP", "setUp"]
+- ["So11XCTActivityP", "setupFailClient"]
+- ["So11XCTActivityP", "setupNilClient"]
+- ["So11XCTActivityP", "setupRealClient"]
+- ["So11XCTActivityP", "setupSuccessClient"]
+- ["So11XCTActivityP", "tearDown"]
+- ["So11XCTActivityP", "testFail"]
+- ["So11XCTActivityP", "testGeneral"]
+- ["So11XCTActivityP", "testHttbinGeneral"]
+- ["So11XCTActivityP", "testHttbinNilValues"]
+- ["So11XCTActivityP", "testInvalidURL"]
+- ["So11XCTActivityP", "testNilData"]
+- !private ["6XCTest8XCTIssueV", "invalidUrl"]
+- !private ["6XCTest8XCTIssueV", "nilData"]
+- !private ["So17XCTWaiterDelegateP", "Date"]
+- !private ["So17XCTWaiterDelegateP", "Int"]
+- !private ["So17XCTWaiterDelegateP", "Int64"]
+- !private ["So17XCTWaiterDelegateP", "JSONDecoder"]
+- !private ["So17XCTWaiterDelegateP", "JSONSerialization"]
+- ["So17XCTWaiterDelegateP", "PostGeolocation"]
+- !private ["So17XCTWaiterDelegateP", "String"]
+- ["So17XCTWaiterDelegateP", "TestURLSession"]
+- !private ["So17XCTWaiterDelegateP", "TestURLSessionDataTask"]
+- !private ["So17XCTWaiterDelegateP", "URLSession"]
+- !private ["So17XCTWaiterDelegateP", "XCTAssert"]
+- ["So17XCTWaiterDelegateP", ""]
+- ["So17XCTWaiterDelegateP", "allTests"]
+- !private ["So17XCTWaiterDelegateP", "assert"]
+- ["So17XCTWaiterDelegateP", "client"]
+- ["So17XCTWaiterDelegateP", "init"]
+- ["So17XCTWaiterDelegateP", "sessionFail"]
+- ["So17XCTWaiterDelegateP", "sessionNilData"]
+- ["So17XCTWaiterDelegateP", "sessionSuccess"]
+- ["So17XCTWaiterDelegateP", "setUp"]
+- ["So17XCTWaiterDelegateP", "setupFailClient"]
+- ["So17XCTWaiterDelegateP", "setupNilClient"]
+- ["So17XCTWaiterDelegateP", "setupRealClient"]
+- ["So17XCTWaiterDelegateP", "setupSuccessClient"]
+- ["So17XCTWaiterDelegateP", "tearDown"]
+- ["So17XCTWaiterDelegateP", "testFail"]
+- ["So17XCTWaiterDelegateP", "testGeneral"]
+- ["So17XCTWaiterDelegateP", "testHttbinGeneral"]
+- ["So17XCTWaiterDelegateP", "testHttbinNilValues"]
+- ["So17XCTWaiterDelegateP", "testInvalidURL"]
+- ["So17XCTWaiterDelegateP", "testNilData"]
+- !private ["So6XCTestC", "Date"]
+- !private ["So6XCTestC", "Int"]
+- !private ["So6XCTestC", "Int64"]
+- !private ["So6XCTestC", "JSONDecoder"]
+- !private ["So6XCTestC", "JSONSerialization"]
+- ["So6XCTestC", "PostGeolocation"]
+- !private ["So6XCTestC", "String"]
+- ["So6XCTestC", "TestURLSession"]
+- !private ["So6XCTestC", "TestURLSessionDataTask"]
+- !private ["So6XCTestC", "URLSession"]
+- !private ["So6XCTestC", "XCTAssert"]
+- ["So6XCTestC", ""]
+- ["So6XCTestC", "allTests"]
+- !private ["So6XCTestC", "assert"]
+- ["So6XCTestC", "client"]
+- ["So6XCTestC", "init"]
+- ["So6XCTestC", "sessionFail"]
+- ["So6XCTestC", "sessionNilData"]
+- ["So6XCTestC", "sessionSuccess"]
+- ["So6XCTestC", "setUp"]
+- ["So6XCTestC", "setupFailClient"]
+- ["So6XCTestC", "setupNilClient"]
+- ["So6XCTestC", "setupRealClient"]
+- ["So6XCTestC", "setupSuccessClient"]
+- ["So6XCTestC", "tearDown"]
+- ["So6XCTestC", "testCaseWithInvocation"]
+- ["So6XCTestC", "testCaseWithSelector"]
+- ["So6XCTestC", "testFail"]
+- ["So6XCTestC", "testGeneral"]
+- ["So6XCTestC", "testHttbinGeneral"]
+- ["So6XCTestC", "testHttbinNilValues"]
+- ["So6XCTestC", "testInvalidURL"]
+- ["So6XCTestC", "testNilData"]
+- !private ["So10XCTestCaseC", "Date"]
+- !private ["So10XCTestCaseC", "Int"]
+- !private ["So10XCTestCaseC", "Int64"]
+- !private ["So10XCTestCaseC", "JSONDecoder"]
+- !private ["So10XCTestCaseC", "JSONSerialization"]
+- ["So10XCTestCaseC", "PostGeolocation"]
+- !private ["So10XCTestCaseC", "String"]
+- ["So10XCTestCaseC", "TestURLSession"]
+- !private ["So10XCTestCaseC", "TestURLSessionDataTask"]
+- !private ["So10XCTestCaseC", "URLSession"]
+- !private ["So10XCTestCaseC", "XCTAssert"]
+- ["So10XCTestCaseC", ""]
+- ["So10XCTestCaseC", "allTests"]
+- !private ["So10XCTestCaseC", "assert"]
+- ["So10XCTestCaseC", "client"]
+- ["So10XCTestCaseC", "init"]
+- ["So10XCTestCaseC", "sessionFail"]
+- ["So10XCTestCaseC", "sessionNilData"]
+- ["So10XCTestCaseC", "sessionSuccess"]
+- ["So10XCTestCaseC", "setUp"]
+- ["So10XCTestCaseC", "setupFailClient"]
+- ["So10XCTestCaseC", "setupNilClient"]
+- ["So10XCTestCaseC", "setupRealClient"]
+- ["So10XCTestCaseC", "setupSuccessClient"]
+- ["So10XCTestCaseC", "tearDown"]
+- ["So10XCTestCaseC", "testFail"]
+- ["So10XCTestCaseC", "testGeneral"]
+- ["So10XCTestCaseC", "testHttbinGeneral"]
+- ["So10XCTestCaseC", "testHttbinNilValues"]
+- ["So10XCTestCaseC", "testInvalidURL"]
+- ["So10XCTestCaseC", "testNilData"]
+- !private ["s14_AppendKeyPathP", "invalidUrl"]
+- !private ["s14_AppendKeyPathP", "nilData"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s15_CVarArgAlignedP", "invalidUrl"]
+- !private ["s15_CVarArgAlignedP", "nilData"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "invalidUrl"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "nilData"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "timeIntervalSince1970"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "invalidUrl"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "nilData"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "invalidUrl"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "nilData"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "invalidUrl"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "nilData"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "invalidUrl"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "nilData"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "invalidUrl"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "nilData"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "invalidUrl"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "nilData"]
+- !private ["s19_HasContiguousBytesP", "invalidUrl"]
+- !private ["s19_HasContiguousBytesP", "nilData"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "invalidUrl"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "nilData"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Date"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Int64"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "JSONDecoder"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "JSONSerialization"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "PostGeolocation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "String"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "TestURLSession"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "TestURLSessionDataTask"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "URLSession"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "XCTAssert"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "assert"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "client"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "invalidUrl"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "jsonObject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "nilData"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sessionFail"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sessionNilData"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sessionSuccess"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setUp"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setupFailClient"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setupNilClient"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setupRealClient"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setupSuccessClient"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tearDown"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "testFail"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "testGeneral"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "testHttbinGeneral"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "testHttbinNilValues"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "testInvalidURL"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "testNilData"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Date"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Int64"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "JSONDecoder"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "JSONSerialization"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "PostGeolocation"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "String"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "TestURLSession"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "TestURLSessionDataTask"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "URLSession"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "XCTAssert"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "assert"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "client"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "invalidUrl"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "jsonObject"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "nilData"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "sessionFail"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "sessionNilData"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "sessionSuccess"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setUp"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setupFailClient"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setupNilClient"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setupRealClient"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setupSuccessClient"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "shared"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "tearDown"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "testFail"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "testGeneral"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "testHttbinGeneral"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "testHttbinNilValues"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "testInvalidURL"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "testNilData"]
+- !private ["So8_NSRangeV", "invalidUrl"]
+- !private ["So8_NSRangeV", "nilData"]
+- !private ["s21_ObjectiveCBridgeableP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "invalidUrl"]
+- !private ["s21_ObjectiveCBridgeableP", "log"]
+- !private ["s21_ObjectiveCBridgeableP", "nilData"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "timeIntervalSince1970"]
+- !private ["s26_OptionalNilComparisonTypeV", "invalidUrl"]
+- !private ["s26_OptionalNilComparisonTypeV", "nilData"]
+- !private ["s14_StringElementP", "invalidUrl"]
+- !private ["s14_StringElementP", "nilData"]
+- !private ["s16_UnicodeEncodingP", ""]
+- !private ["s16_UnicodeEncodingP", "invalidUrl"]
+- !private ["s16_UnicodeEncodingP", "nilData"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "10Foundation15AffineTransformV"
+- !private "s11AnyHashableV"
+- !private "s8AnyIndexV"
+- !private "s10AnyKeyPathC"
+- !private "So17OS_dispatch_queueC8DispatchE20AutoreleaseFrequencyO"
+- !private "SK"
+- !private "Sz"
+- !private "Sb"
+- !private "So17CGAffineTransformV"
+- !private "So7CGPointV"
+- !private "So6CGRectV"
+- !private "So6CGSizeV"
+- !private "So8CGVectorV"
+- !private "8CloudKit21CKRecordValueProtocolP"
+- "s7CVarArgP"
+- !private "10Foundation8CalendarV"
+- !private "s7UnicodeO23CanonicalCombiningClassV"
+- !private "SJ"
+- !private "10Foundation12CharacterSetV"
+- !private "s17CodingUserInfoKeyV"
+- !private "Sl"
+- !private "SL"
+- !private "10Foundation8CalendarV9ComponentO"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "6Darwin0A7BooleanV"
+- !private "10Foundation4DataV"
+- !private "10Foundation12DataProtocolP"
+- !private "10Foundation4DateV"
+- !private "10Foundation14DateComponentsV"
+- !private "10Foundation12DateIntervalV"
+- !private "So9NSDecimala"
+- !private "Se"
+- !private "SD"
+- !private "8Dispatch0A3QoSV"
+- !private "8Dispatch0A4TimeV"
+- !private "8Dispatch0A12TimeIntervalO"
+- !private "8Dispatch0A13TimeoutResultO"
+- !private "8Dispatch0A8WallTimeV"
+- !private "s6MirrorV12DisplayStyleO"
+- !private "SE"
+- !private "SS10FoundationE8EncodingV"
+- "SQ"
+- !private "s5ErrorP"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "s27FloatingPointClassificationO"
+- !private "s25FloatingPointRoundingRuleO"
+- !private "s17FloatingPointSignO"
+- !private "s7UnicodeO15GeneralCategoryO"
+- !private "So17OS_dispatch_queueC8DispatchE19GlobalQueuePriorityO"
+- "SH"
+- !private "10Foundation8CalendarV10IdentifierO"
+- !private "10Foundation8IndexSetV0B0V"
+- !private "SS5IndexV"
+- !private "s16_ValidUTF8BufferV5IndexV"
+- !private "10Foundation8IndexSetV0B0V"
+- !private "SS5IndexV"
+- !private "s16_ValidUTF8BufferV5IndexV"
+- !private "10Foundation9IndexPathV"
+- !private "10Foundation8IndexSetV"
+- !private "Si"
+- !private "s5Int16V"
+- !private "s5Int32V"
+- !private "s5Int64V"
+- !private "s4Int8V"
+- !private "10Foundation11JSONDecoderC"
+- !private "So19NSJSONSerializationC"
+- !private "10Foundation6LocaleV"
+- !private "s25LosslessStringConvertibleP"
+- !private "10Foundation8CalendarV14MatchingPolicyO"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "So8NSCodingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "s5NeverO"
+- !private "10Foundation12NotificationV"
+- !private "So9NSScannerC10FoundationE20NumberRepresentationO"
+- !private "Sj"
+- !private "s7UnicodeO11NumericTypeO"
+- !private "SO"
+- !private "s13OpaquePointerV"
+- !private "s9OptionSetP"
+- !private "Sq"
+- !private "10Foundation20PersonNameComponentsV"
+- !private "15PostGeolocationAAC"
+- !private "15PostGeolocation0aB5ErrorO"
+- "20PostGeolocationTestsAAC"
+- !private "7Combine9PublisherP"
+- !private "So20NSNotificationCenterC10FoundationE9PublisherV"
+- !private "7Combine9PublisherP"
+- !private "So20NSNotificationCenterC10FoundationE9PublisherV"
+- !private "8Dispatch0A3QoSV0B6SClassO"
+- !private "Sk"
+- !private "Sm"
+- !private "10Foundation8IndexSetV9RangeViewV"
+- !private "SY"
+- !private "So20NSJSONReadingOptionsV"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "10Foundation8CalendarV18RepeatedTimePolicyO"
+- !private "s10SIMDScalarP"
+- !private "s7UnicodeO6ScalarV"
+- !private "7Combine32SchedulerTimeIntervalConvertibleP"
+- !private "10Foundation8CalendarV15SearchDirectionO"
+- !private "10ObjectiveC8SelectorV"
+- !private "ST"
+- !private "s10SetAlgebraP"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "So16NSOperationQueueC10FoundationE17SchedulerTimeTypeV6StrideV"
+- !private "So17OS_dispatch_queueC8DispatchE17SchedulerTimeTypeV6StrideV"
+- !private "So9NSRunLoopC10FoundationE17SchedulerTimeTypeV6StrideV"
+- !private "So16NSOperationQueueC10FoundationE17SchedulerTimeTypeV6StrideV"
+- !private "So17OS_dispatch_queueC8DispatchE17SchedulerTimeTypeV6StrideV"
+- !private "So9NSRunLoopC10FoundationE17SchedulerTimeTypeV6StrideV"
+- !private "Sx"
+- !private "SS"
+- !private "Sy"
+- "15PostGeolocation14TestURLSessionC"
+- !private "15PostGeolocation22TestURLSessionDataTaskC"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "10Foundation8TimeZoneV"
+- !private "7Combine15TopLevelDecoderP"
+- !private "Su"
+- !private "s6UInt16V"
+- !private "s6UInt32V"
+- !private "s6UInt64V"
+- !private "s5UInt8V"
+- !private "10Foundation3URLV"
+- !private "10Foundation13URLComponentsV"
+- !private "10Foundation12URLQueryItemV"
+- !private "10Foundation10URLRequestV"
+- !private "So12NSURLSessionC"
+- !private "15PostGeolocation26URLSessionDataTaskProtocolP"
+- "15PostGeolocation18URLSessionProtocolP"
+- !private "s7UnicodeO5UTF32O"
+- !private "10Foundation4UUIDV"
+- !private "s12UnicodeCodecP"
+- !private "s21UnicodeDecodingResultO"
+- !private "SU"
+- "So11XCTActivityP"
+- !private "6XCTest8XCTIssueV"
+- "So17XCTWaiterDelegateP"
+- "So6XCTestC"
+- "So10XCTestCaseC"
+- !private "s14_AppendKeyPathP"
+- !private "s15_CVarArgAlignedP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "So8_NSRangeV"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s26_OptionalNilComparisonTypeV"
+- !private "s14_StringElementP"
+- !private "s16_UnicodeEncodingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/galymanuarbek/Desktop/PostGeolocation/.build/x86_64-apple-macosx/debug/PostGeolocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Network.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Metal.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CloudKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/AppKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib/XCTest.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/galymanuarbek/Desktop/PostGeolocation/.build/x86_64-apple-macosx/debug/PostGeolocation.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Network.framework/Headers/Network.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTest.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "8aa446fe67d8edb81a452bb77a37ee18"

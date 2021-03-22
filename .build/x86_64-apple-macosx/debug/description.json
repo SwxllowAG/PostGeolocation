@@ -1,0 +1,19 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "\/Users\/galymanuarbek\/Desktop\/PostGeolocation\/.build\/x86_64-apple-macosx\/debug\/PostGeolocationPackageTests.xctest\/Contents\/MacOS\/PostGeolocationPackageTests",
+      "packageName" : "PostGeolocation",
+      "productName" : "PostGeolocationPackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "swiftTargetMap" : {
+    "C.PostGeolocation-debug.module" : "PostGeolocation",
+    "C.PostGeolocationTests-debug.module" : "PostGeolocationTests"
+  },
+  "testDiscoveryCommands" : {
+
+  }
+}

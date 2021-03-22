@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "d0a62677fb3752b2039fdf1a778fff42"
+build_time: [1616451253, 566664000]
+inputs:
+  "/Users/galymanuarbek/Desktop/PostGeolocation/Tests/PostGeolocationTests/PostGeolocationTests.swift": [1616451249, 7039081]
+  "/Users/galymanuarbek/Desktop/PostGeolocation/Tests/PostGeolocationTests/XCTestManifests.swift": [1615570929, 417235456]
